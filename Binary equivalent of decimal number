@@ -1,0 +1,24 @@
+#include<stdio.h>
+void main()
+{
+int num,rem,sum,i;
+printf("enter n:");
+scanf("%d",&num);
+for(i=0;pow(2,i)<num;i++)
+{
+  rem=pow(2,i);
+}
+for(sum=0;i>0;i--)
+{
+  sum=sum+pow(2,i-1);
+  if(sum<=num)
+  {
+    printf("1");
+  }
+  else
+  {
+    printf("0");
+    sum=sum-pow(2,i-1);
+   }
+}
+}
