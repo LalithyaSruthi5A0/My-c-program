@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+int num,rem=num,x;
+printf("enter n:");
+scanf("%d",&num); 
+for(x=num;x>=1;)
+{
+   rem=x%*2; 
+   x=x/2;
+   printf("%d",rem);
+}
+}
